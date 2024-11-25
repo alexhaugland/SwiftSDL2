@@ -7,7 +7,7 @@ let package = Package(
         .macOS(.v11),
         .iOS(.v13),
         .tvOS(.v13),
-        .visionOS(.v13),
+        .visionOS(.v1),
     ],
     products: [
         .library(name: "SDL",
